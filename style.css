@@ -162,11 +162,12 @@ nav ul li:hover {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.gift-section{
+.gift-section {
   display: flex;
   justify-content: center;
   margin: 100px 0;
   gap: 50px;
+  scroll-margin: 100px;
 }
 .gift-content {
   display: flex;
@@ -184,9 +185,8 @@ nav ul li:hover {
 }
 .footer-upper .container h3 {
   /* padding-bottom: px; */
- border-bottom: 5px solid white;
+  border-bottom: 5px solid white;
   margin-bottom: 10px;
-  
 }
 .footer-lower {
   background-color: var(--purple300);
@@ -194,7 +194,4 @@ nav ul li:hover {
   display: flex;
   justify-content: center;
   color: white;
-}
-.gift-section{
-  scroll-margin: 100px;
 }
